@@ -74,5 +74,23 @@
     margin: 0;
     width: 100%;
     padding: 100px 0;
+    padding-bottom: 0;
+}
+/* Estilo para el contenedor del enlace */
+a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilo para el título dentro del enlace */
+.h2-1 {
+    color: #fff; /* Color de texto blanco por defecto */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilo para el cambio de color en el hover */
+a:hover .h2-1 {
+    color: #61dafb; /* Color de texto azul al hacer hover */
 }
 

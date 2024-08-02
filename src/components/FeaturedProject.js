@@ -26,6 +26,9 @@ const FeaturedProject = () => {
     return (
         <div className="featured-project">
             <h1 className="h1-1">Featured Project - Emulator of Among Us</h1>
+            <a className= "h2-1" href="https://github.com/JffMv/Emulator-Among-Us-Front">
+                <h2>Repository</h2>
+            </a>
             <nav className="nav-container">
                 <ul className="nav-1">
                     {files.map(file => (
@@ -37,7 +40,7 @@ const FeaturedProject = () => {
             </nav>
             <div className="info-container-1">
                 <div className="info-section-1">
-                {selectedFile ? <ReactMarkdown>{content}</ReactMarkdown> : <h2> </h2>}
+                    {selectedFile ? <ReactMarkdown>{content}</ReactMarkdown> : <h2></h2>}
                 </div>
             </div>
         </div>
