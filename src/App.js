@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Experience_and_skills from "./components/Experience_and_skills";
+import FeaturedProject from "./components/FeaturedProject";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
         <Header />
           <Home />
           <AboutMe />
+          {/* eslint-disable-next-line react/jsx-pascal-case */}
           <Experience_and_skills />
+          <FeaturedProject />
       </div>
   );
 }

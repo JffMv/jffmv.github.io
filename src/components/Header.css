@@ -33,6 +33,7 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -51,5 +52,5 @@ nav ul li a:hover {
 
 /* Alineación del nav para que esté a la derecha */
 nav {
-    margin-left: auto;
+    margin-left:initial ;
 }

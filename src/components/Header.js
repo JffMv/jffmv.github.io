@@ -34,7 +34,7 @@ const Header = () => {
                     <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
                     <li><Link to="about-me" smooth={true} duration={500}>About Me</Link></li>
                     <li><Link to="experience-and-skills" smooth={true} duration={500}>Experience and Skills</Link></li>
-                    <li><Link to="featured-projects" smooth={true} duration={500}>Featured Projects</Link></li>
+                    <li><Link to="featured-project" smooth={true} duration={500}>Featured Project</Link></li>
                     <li><Link to="contact-me" smooth={true} duration={500}>Contact Me</Link></li>
                     <li><Link to="cv" smooth={true} duration={500}>CV</Link></li>
                 </ul>
