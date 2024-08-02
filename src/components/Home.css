@@ -1,6 +1,9 @@
 
 .home-container {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100vh;
     background-image: url(../../src/assets/jffmv.png); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta real de tu imagen */
     background-size: cover;
@@ -10,6 +13,7 @@
     justify-content: center;
     color: white;
     text-align: center;
+    z-index: -1;
 }
 
 .overlay {
