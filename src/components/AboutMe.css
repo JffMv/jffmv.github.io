@@ -4,6 +4,8 @@
     padding: 20px;
     text-align: center;
     margin-top: 100vh; /* Asegura que comience después del componente Home */
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .profile-picture-container {
