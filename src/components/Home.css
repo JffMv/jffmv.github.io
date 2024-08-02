@@ -1,0 +1,30 @@
+
+.home-container {
+    position: relative;
+    height: 100vh;
+    background-image: url(../../src/assets/jffmv.png); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta real de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Filtro oscuro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
