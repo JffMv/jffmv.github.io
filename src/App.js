@@ -9,6 +9,7 @@ import FeaturedProject from "./components/FeaturedProject";
 function App() {
   return (
       <div className="App">
+        
         <Header />
           <Home />
           <AboutMe />
