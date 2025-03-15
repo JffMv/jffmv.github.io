@@ -44,7 +44,7 @@ const Header = () => {
                         <li><Link to="experience-and-skills" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>Experience and Skills</Link></li>
                         <li><Link to="featured-project" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>Featured Project</Link></li>
                         <li><Link to="contact-me" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>Contact Me</Link></li>
-                        <li><Link to="cv" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>CV</Link></li>
+                       {/* <li><Link to="cv" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>CV</Link></li> */}
                     </ul>
                 </nav>
             </div>
