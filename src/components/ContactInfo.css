@@ -1,0 +1,45 @@
+.contact-section {
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: #334; /* Azul de LinkedIn */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    color: white; /* Texto en blanco */
+    text-align: center;
+}
+
+.contact-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.contact-section a {
+    color: white; /* Enlaces en blanco */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-section a:hover {
+    color: #cce7ff; /* Efecto hover en los enlaces */
+}
+
+.contact-icon {
+    width: 32px;
+    height: 32px;
+}
