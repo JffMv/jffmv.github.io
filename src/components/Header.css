@@ -60,34 +60,69 @@
 }
 
 
-/* Responsive para móviles */
+/* Responsive CSS */
+
+/* Para pantallas pequeñas (hasta 480px) */
+@media screen and (max-width: 480px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .menu-button {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-links {
+        top: 50px;
+        width: 100%;
+    }
+}
+
+/* Para pantallas medianas (hasta 768px) */
 @media screen and (max-width: 768px) {
     .menu-button {
         display: block;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+    
     }
-
     .nav-links {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 120px;
         left: 0;
         width: 100%;
-        background-color: #444;
+        background-color: #8A3712;
         text-align: center;
-        padding: 20px 0;
+        padding: 100px 0;
+        border-radius: 10px;
     }
-
+    .logo {
+        align-self: flex-start;
+        
+    }
     .nav-links.open {
         display: flex;
     }
-
     .nav-links ul {
         flex-direction: column;
         gap: 15px;
     }
-
     .nav-links li {
+        padding: 10px 0;
+    }
+}
+
+/* Para pantallas grandes (hasta 1024px) */
+@media screen and (max-width: 1024px) {
+    .header-container {
+        max-width: 90%;
+    }
+    .nav-links {
         padding: 10px 0;
     }
 }
