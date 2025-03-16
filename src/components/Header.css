@@ -40,6 +40,25 @@
     cursor: pointer;
     display: none;
 }
+/* Estilos para los enlaces del menú */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Cambio de color al pasar el mouse */
+.nav-links a:hover {
+    color: #ffcc00; /* Puedes cambiar este color */
+}
+
+/* Asegurar que toda el área del <li> también sea clickeable */
+.nav-links li {
+    list-style: none;
+    cursor: pointer;
+}
+
 
 /* Responsive para móviles */
 @media screen and (max-width: 768px) {
