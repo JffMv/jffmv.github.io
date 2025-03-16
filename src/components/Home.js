@@ -3,7 +3,7 @@ import './Home.css';
 
 const Home = () => {
     const [text, setText] = useState('');
-    const fullText = 'Bienvenido a mi portafolio profesional';
+    const fullText = 'Welcome to my professional portfolio';
 
     useEffect(() => {
         let index = 0;
@@ -13,7 +13,7 @@ const Home = () => {
             if (index === fullText.length) {
                 clearInterval(intervalId);
             }
-        }, 100); // Ajusta la velocidad de escritura aquí (en milisegundos)
+        }, 100); // Adjust the typing speed here (in milliseconds)
 
         return () => clearInterval(intervalId);
     }, [fullText]);
