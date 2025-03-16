@@ -76,8 +76,8 @@
 /* Elementos de la lista */
 .nav-item {
     padding: 10px 15px;
-    background-color: #282c34;
-    color: #61dafb;
+    background-color: #3D1908;
+    color: #FFBFA1;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -85,7 +85,7 @@
 
 /* Estado activo */
 .nav-item.active {
-    background-color: #61dafb;
+    background-color: #FFBFA1;
     color: #282c34;
     font-weight: bold;
 }
@@ -126,6 +126,9 @@ a {
 /* Estilo para el cambio de color en el hover */
 a:hover .h2-1 {
     color: #61dafb; /* Color de texto azul al hacer hover */
+}
+.nav-container {
+    margin-top: 50px;
 }
 
 
