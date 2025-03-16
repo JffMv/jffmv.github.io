@@ -38,7 +38,7 @@ const FeaturedProject = () => {
         <div className="featured-project">
             <h1 className="h1-1">Featured Project - Emulator of Among Us</h1>
             <a className="h2-1" href="https://github.com/JffMv/Emulator-Among-Us-Front/wiki" target="_blank" rel="noopener noreferrer">
-                <h2>Ver Wiki en GitHub</h2>
+                <h2>Show Wiki on GitHub</h2>
             </a>
             <nav className="nav-container">
                 <ul className="nav-1">
