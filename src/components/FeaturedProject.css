@@ -56,16 +56,40 @@
     margin: 0;
 }
 
-/* Elementos de la lista */
-.nav-1 {
-    color: #61dafb;
-    margin: 10px 0; /* Espacio entre los elementos de la lista */
-    cursor: pointer; /* Cambia el cursor al hacer hover sobre los elementos */
-    padding-left: 50px;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.3s ease, background-color 0.3s ease; /* Transiciones suaves para el color de fondo y el borde */
-    width: 100%; /* Asegura que los elementos ocupen el ancho completo del contenedor */
+/* Contenedor de navegación */
+.nav-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 20px;
 }
+
+/* Lista de navegación */
+.nav-1 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre elementos */
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas si es necesario */
+    justify-content: center;
+}
+
+/* Elementos de la lista */
+.nav-item {
+    padding: 10px 15px;
+    background-color: #282c34;
+    color: #61dafb;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Estado activo */
+.nav-item.active {
+    background-color: #61dafb;
+    color: #282c34;
+    font-weight: bold;
+}
+
 .nav-item:hover{
     color: #ffffff;
 }
@@ -80,6 +104,16 @@
 a {
     text-decoration: none; /* Elimina el subrayado del enlace */
 }
+/* Hace que las imágenes dentro del contenido Markdown sean responsivas */
+.info-section-1 img {
+    max-width: 100%; /* Evita que las imágenes sean más grandes que el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacios extra alrededor de la imagen */
+    margin: 10px auto; /* Centra la imagen y añade espaciado */
+    border-radius: 8px; /* Opcional: agrega bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra ligera */
+}
+
 
 /* Estilo para el título dentro del enlace */
 .h2-1 {
@@ -92,5 +126,24 @@ a {
 /* Estilo para el cambio de color en el hover */
 a:hover .h2-1 {
     color: #61dafb; /* Color de texto azul al hacer hover */
+}
+
+
+/* 🔹 Responsividad */
+@media (max-width: 768px) {
+    .nav-container {
+        margin-top: 40px; /* Más separación en móviles */
+    }
+    
+    .nav-1 {
+        flex-direction: column; /* Apila los elementos en móviles */
+        align-items: center;
+        
+    }
+
+    .nav-item {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        max-width: 250px; /* No se extiende demasiado */
+    }
 }
 

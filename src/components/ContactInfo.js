@@ -5,7 +5,7 @@ import './ContactInfo.css'; // Import the CSS file for styling
 const ContactInfo = () => {
     return (
         <div id="contact-me" className="info-section contact-section">
-            <h3>Contact</h3>
+            <h3>Contact me</h3>
             <ul>
                 <li>
                     <Linkedin className="contact-icon" />

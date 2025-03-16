@@ -32,3 +32,18 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+/* 🔹 Responsividad */
+@media (max-width: 768px) {
+    
+    .nav-1 {
+        flex-direction: column; /* Apila los elementos en móviles */
+        align-items: center;
+        
+    }
+
+    .nav-item {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        max-width: 250px; /* No se extiende demasiado */
+    }
+}

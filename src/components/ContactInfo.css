@@ -1,7 +1,7 @@
 .contact-section {
     width: 100vw; /* Ocupa todo el ancho de la pantalla */
     height: 100vh; /* Ocupa toda la altura de la pantalla */
-    background-color: #334; /* Azul de LinkedIn */
+    background-color: #8A3712; /* Azul de LinkedIn */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centra verticalmente */
